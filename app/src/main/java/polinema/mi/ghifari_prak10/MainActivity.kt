@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     lateinit var intentIntegrator: IntentIntegrator
     lateinit var adapter: ListAdapter
     lateinit var v:View
+
     lateinit var db:SQLiteDatabase
     lateinit var builder:AlertDialog.Builder
     var idList:String=""
